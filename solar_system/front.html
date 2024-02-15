@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Simulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .start-button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #ffd700;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .start-button:hover {
+            background-color: #ffc800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Solar System Simulation</h1>
+        <p>Explore the orbit of the Earth around the Sun in this interactive simulation.</p>
+        <button class="start-button" id="startButton">Start Simulation</button>
+    </div>
+
+    <script src="PageJs.js"></script>
+</body>
+</html>
